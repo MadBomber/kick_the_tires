@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
       you to load up a few basic asserts/refutes/shows to explore the library's objects
       and method results.  When you have finished kicking the tires you may want to take
       the library out for a spin with some functional, application-line code and you
-      don't want any of the tiring kicking out to STDOUT.
+      don't want any of the tire kicking out to STDOUT.
   }
   spec.homepage      = "http://github.com/MadBomber/kick_the_tires"
   spec.license       = "You want it?  It's yours."
