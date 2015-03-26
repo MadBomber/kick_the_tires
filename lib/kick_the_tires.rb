@@ -26,7 +26,7 @@ module KickTheTires
     puts "-"*75
     a_string    = caller.last
     source_line = a_string.split(' ').first.split(':')[1].to_i
-    puts "Source #=> #{SOURCE[source_line-1]}" # MAGIC: zero-based index
+    puts "Source #=> [#{source_line}] #{SOURCE[source_line-1]}" # MAGIC: zero-based index
   end
 
   def show(a_thing)
