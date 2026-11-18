@@ -19,6 +19,7 @@ Gem::Specification.new do |spec|
       don't want any of the tire kicking out to STDOUT.
   }
   spec.homepage      = "http://github.com/MadBomber/kick_the_tires"
+  spec.required_ruby_version = ">= 4.0"
   spec.license       = "You want it?  It's yours."
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
